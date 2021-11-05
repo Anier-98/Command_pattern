@@ -17,11 +17,11 @@ public class FechaHora {
          this.min; */
     }
     public FechaHora(String cadenaFecha) {
-//// COMPLETAR /////////
+
     }
-    public FechaHora() {
+   /* public FechaHora() {
 //// COMPLETAR /////////
-    }
+    }*/
     //métodos
     @Override
     public String toString() {

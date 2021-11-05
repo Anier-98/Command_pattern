@@ -8,6 +8,7 @@ public class ComandoCambiarFecha implements ComandoDeshacer {
 
     @Override
     public void setReunion(Reunion reunion) {
+        this.rehacer();
 
     }
 
