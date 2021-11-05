@@ -1,12 +1,14 @@
 package org.anier;
 
-public class ComandoCambiarLocalizacion implements ComandoDeshacer {
+public class ComandoCambiarLocation implements ComandoDeshacer {
 
     private Reunion reunion; //referencia al receptor
     private String nuevaLocalizacion; //cuando el usuario la cambie
     private String antiguaLocalizacion; //guardará la antigua localización
+
     public Reunion getReunion() {
 //// COMPLETAR /////////
+        return null;
     }
     public void setReunion(Reunion reunion) {
 //// COMPLETAR /////////

@@ -12,15 +12,14 @@ public class Cliente {
                 Reunion r = new Reunion("Proyecto", "Roberto, María, Javier", "Sala reunión 1", fh);
                 System.out.println("\n- Antes de ejecutar los comandos:" + r.toString());
 //comando localización
-                ComandoDeshacer comando = new ComandoCambiarLocalizacion();
+                ComandoDeshacer comando = new ComandoCambiarLocation();
                 comando.setReunion(r);
 //invocador
                 Invocador inv = new Invocador();
 //establece y ejecuta el comando
                 inv.setComando(comando);
                 inv.ejecutaComando("Sala reunión 2");
-                System.out.println("\n- Después de ejecutar el comando localización:" +
-                        r.toString());
+                System.out.println("\n- Después de ejecutar el comando localización:" + r.toString());
                 inv.deshacerComando();
                 System.out.println("\n- Deshacer:" + r.toString());
                 inv.rehacerComando();

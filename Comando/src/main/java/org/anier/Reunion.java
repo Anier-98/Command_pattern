@@ -3,13 +3,12 @@ package org.anier;
 public class Reunion {
 
     //Representa el receptor del patrón.
-    public class Reunion {
         private String motivo; //motivo de la reunión
         private String participantes; //gente que irá a la reunión
         private String localizacion; //sitio en que se producira la reunión
         private FechaHora fecha; //fecha de la reunión
-        public Reunion(String motivo, String participantes, String localizacion, FechaHora
-                fecha) {
+
+        public Reunion(String motivo, String participantes, String localizacion, FechaHora fecha) {
             this.motivo = motivo;
             this.participantes = participantes;
             this.localizacion = localizacion;
@@ -19,10 +18,10 @@ public class Reunion {
             return this.motivo;
         }
         public void setMotivo(String nuevo) {
-//// COMPLETAR /////////
+            this.motivo = nuevo;
         }
         public String getParticipantes() {
-//// COMPLETAR /////////
+            return this.participantes;
         }
         public void setParticipantes(String nuevos) {
             this.participantes = nuevos;
