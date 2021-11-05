@@ -8,6 +8,7 @@ public class ComandoCambiarFecha implements ComandoDeshacer {
         return this.reunion;
     }
     //// COMPLETAR /////////
+    public void r
 //Cambia la fecha de la reunión por otra introducida por el usuario y
 //almacena el valor anterior de la reunión por si luego se quiere recuperar
     public void ejecutar(String param) {
