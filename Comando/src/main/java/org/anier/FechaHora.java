@@ -10,7 +10,11 @@ public class FechaHora {
     private int min;
     //constructores
     public FechaHora(int dia, int mes, int año, int hora, int min) {
-//// COMPLETAR /////////
+       /*  this.dia;
+         this.mes;
+         this.año;
+         this.hora;
+         this.min; */
     }
     public FechaHora(String cadenaFecha) {
 //// COMPLETAR /////////
